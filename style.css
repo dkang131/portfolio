@@ -149,14 +149,9 @@ a:hover{
 
 section{
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
-
-.section-containter{
-    display: flex;
 }
 
 /* PROFILE SECTION */
@@ -282,7 +277,8 @@ section{
 }
 
 .about-pic{
-    border-radius: 2rem;
+    width: 400px;
+    height: px;
 }
 
 .arrow{
@@ -302,8 +298,8 @@ section{
 }
 
 .section-container{
+    width: 100%;
     gap: 4rem;
-    height: 80%;
     display: flex;
     flex-direction: row;
 }
@@ -311,7 +307,6 @@ section{
 .section__pic-container{
     height: 400px;
     width: 400px;
-    margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -331,4 +326,33 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+/* article {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+}
+.article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+article.icon{
+    cursor: default;
 }
